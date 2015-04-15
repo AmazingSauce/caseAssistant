@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42980D73-3115-4463-AF26-59C5D2EC501F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>closing_email_templete</RootNamespace>
+    <AssemblyName>closing email templete</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\anderr14\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FDF724034ADDF3A7BF22840D6E96D09E7EE8D147</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>closing email templete_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SHDocVw">
+      <HintPath>..\packages\WatiN.2.1.0\lib\net40\Interop.SHDocVw.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+      <HintPath>..\packages\WatiN.2.1.0\lib\net40\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WatiN.Core">
+      <HintPath>..\packages\WatiN.2.1.0\lib\net40\WatiN.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3 Strike Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3 Strike Email.Designer.cs">
+      <DependentUpon>3 Strike Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcceptCase.Designer.cs">
+      <DependentUpon>AcceptCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BreakFixIssuesCompleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BreakFixIssuesCompleted.Designer.cs">
+      <DependentUpon>BreakFixIssuesCompleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="closingSRForUnresponsiveCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="closingSRForUnresponsiveCustomer.Designer.cs">
+      <DependentUpon>closingSRForUnresponsiveCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClosureEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClosureEmail.Designer.cs">
+      <DependentUpon>ClosureEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeRed.Designer.cs">
+      <DependentUpon>CodeRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateTemplate.Designer.cs">
+      <DependentUpon>CreateTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTemplateTemplate.cs" />
+    <Compile Include="DialHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialHome.Designer.cs">
+      <DependentUpon>DialHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dispatchPart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dispatchPart.Designer.cs">
+      <DependentUpon>dispatchPart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPEFault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPEFault.Designer.cs">
+      <DependentUpon>DPEFault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ESRSOutage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESRSOutage.Designer.cs">
+      <DependentUpon>ESRSOutage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GatherNewLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GatherNewLogs.Designer.cs">
+      <DependentUpon>GatherNewLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GettingSignature.cs" />
+    <Compile Include="GuruLiveTemplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuruLiveTemplete.Designer.cs">
+      <DependentUpon>GuruLiveTemplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HowToOrderPart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HowToOrderPart.Designer.cs">
+      <DependentUpon>HowToOrderPart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HowToUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HowToUpgrade.Designer.cs">
+      <DependentUpon>HowToUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interact with HTML.cs" />
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outlook.cs" />
+    <Compile Include="OwnerChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerChange.Designer.cs">
+      <DependentUpon>OwnerChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformanceEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformanceEmail.Designer.cs">
+      <DependentUpon>PerformanceEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SPPanic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPPanic.Designer.cs">
+      <DependentUpon>SPPanic.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="3 Strike Email.resx">
+      <DependentUpon>3 Strike Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcceptCase.resx">
+      <DependentUpon>AcceptCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BreakFixIssuesCompleted.resx">
+      <DependentUpon>BreakFixIssuesCompleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="closingSRForUnresponsiveCustomer.resx">
+      <DependentUpon>closingSRForUnresponsiveCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClosureEmail.resx">
+      <DependentUpon>ClosureEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeRed.resx">
+      <DependentUpon>CodeRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTemplate.resx">
+      <DependentUpon>CreateTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialHome.resx">
+      <DependentUpon>DialHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dispatchPart.resx">
+      <DependentUpon>dispatchPart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPEFault.resx">
+      <DependentUpon>DPEFault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESRSOutage.resx">
+      <DependentUpon>ESRSOutage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GatherNewLogs.resx">
+      <DependentUpon>GatherNewLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowToOrderPart.resx">
+      <DependentUpon>HowToOrderPart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowToUpgrade.resx">
+      <DependentUpon>HowToUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerChange.resx">
+      <DependentUpon>OwnerChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformanceEmail.resx">
+      <DependentUpon>PerformanceEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SPPanic.resx">
+      <DependentUpon>SPPanic.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="closing email templete_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="LCC11">
+      <Guid>{EDCD5812-6A06-43C3-AFAC-46EF5D14E22C}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

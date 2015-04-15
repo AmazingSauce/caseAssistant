@@ -1,0 +1,15 @@
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\bin\Release\closing email templete.exe.config
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\Interop.LCC11.dll
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing email templete.csproj.ResolveComReference.cache
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\bin\Release\closing email templete.exe.manifest
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\bin\Release\closing email templete.application
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\bin\Release\closing email templete.exe
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\bin\Release\closing email templete.pdb
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing_email_templete.Form1.resources
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing_email_templete.MDIParent1.resources
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing_email_templete.Properties.Resources.resources
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing email templete.csproj.GenerateResource.Cache
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing email templete.exe.manifest
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing email templete.application
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing email templete.exe
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Release\closing email templete.pdb

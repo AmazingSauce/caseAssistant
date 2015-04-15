@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="closing email templete.exe" version="1.0.0.0" publicKeyToken="4b4f35d5ee991df8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="closing email templete" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="closing email templete.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="closing email templete.exe" size="45568">
+      <assemblyIdentity name="closing email templete" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VcBH9XZ3OaA0zehohGpwmZ/wz+u3kANraAf+zN8hqaQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="closing email templete.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CORP\anderr14" issuerKeyHash="ae612639da97ef8d10aedff212489c1e7972fc11" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vM9mzRSWaUWmq51XsLsqHyQhLNeYLYP3c+XtGQimgyo=</DigestValue></Reference></SignedInfo><SignatureValue>aJ0ONfR5QG/J0X+/ZEQ/B46MOdLJj7SYdrVzZsWC3oRLu3SXhTMVzaxh0J2q+dH3mFv6/QfyE+5NJjBAKIOEzGpZs/zze8sPf6wy2YBVxMzzwtuzd/1EDa5E1YQ/zYjYSSaMrxS0yM+sClZcy+jYnLat63+3j1liLJh/4CQlw44=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>miHpiqPa9oodsj/Hu2qBS7gaJUVn99CcWi9IjetJLcQGzcNvHL27wpTkTd8KgzUDJ3CbQZaUrZ9VecKiRzxc3isWaUkPBGqdcUOyL2KF18Y2zWKqWxty9kuXhuq8qeNd1uRKICp9bxCOvtrPUWT4C3S4wDRnW9A31Llzs0GR4pM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2a83a60819ede573f7832d98d72c21241f2abbb0579daba645699614cd66cfbc" Description="" Url=""><as:assemblyIdentity name="closing email templete.exe" version="1.0.0.0" publicKeyToken="4b4f35d5ee991df8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CORP\anderr14</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>InQxHF4r4NCsv4skHleFC4SHJXZQELg+jV8yOswWbgo=</DigestValue></Reference></SignedInfo><SignatureValue>XPInERnUdwgGP/4WgMMw6f3BkL5H9VdeP35lGQ5cORSRzBWnAlSE7Rqg3NKgdllnmwnANYmcw257c0MSKkoQn35h0HKlcJKpEjFN1KDm8gEaR3cWo77sVeCt7k6jG5GpR3HYJhWgo2fZqEAPr1HBWVSSM+psmQ4r171Lgenp2UQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>miHpiqPa9oodsj/Hu2qBS7gaJUVn99CcWi9IjetJLcQGzcNvHL27wpTkTd8KgzUDJ3CbQZaUrZ9VecKiRzxc3isWaUkPBGqdcUOyL2KF18Y2zWKqWxty9kuXhuq8qeNd1uRKICp9bxCOvtrPUWT4C3S4wDRnW9A31Llzs0GR4pM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQW3nKLjN6y6tM//DhHlxR7TANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQwBPAFIAUABcAGEAbgBkAGUAcgByADEANDAeFw0xMzA5MzAxODMyMTNaFw0xNDEwMDEwMDMyMTNaMCUxIzAhBgNVBAMeGgBDAE8AUgBQAFwAYQBuAGQAZQByAHIAMQA0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCaIemKo9r2ih2yP8e7aoFLuBolRWf30JxaL0iN60ktxAbNw28cvbvClORN3wqDNQMncJtBlpStn1V5wqJHPFzeKxZpSQ8Eap1xQ7IvYoXXxjbNYqpbG3L2S5eG6ryp413W5EogKn1vEI6+2s9RZPgLdLjANGdb0DfUuXOzQZHikwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGu8A5eMekWtOZb+2nWdVqtDjPvmxahkKtCWsvqnwVxnPhFAaN7iyhbFUhMUVnEOapiAqyv2RCfAy6FGag4egx9TEFMCrvQ/nmmBhdUqP8lAcp0DEhyYSamJopSIT1FYsIUw3c3kpzGNFmJtxyfHojfsGJYjQ09krb8GxEK9D0Ff</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

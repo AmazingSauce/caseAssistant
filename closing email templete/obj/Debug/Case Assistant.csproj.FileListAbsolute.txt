@@ -1,0 +1,36 @@
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\closing email templete.exe.config
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\closing email templete.exe.manifest
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\closing email templete.application
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\closing email templete.exe
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\closing email templete.pdb
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\nunit.framework.dll
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\WatiN.Core.dll
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\nunit.framework.xml
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\bin\Debug\WatiN.Core.xml
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\Interop.LCC11.dll
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\Case Assistant.csproj.ResolveComReference.cache
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete._3_Strike_Email.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.AcceptCase.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.BreakFixIssuesCompleted.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.closingSRForUnresponsiveCustomer.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.ClosureEmail.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.CodeRed.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.CreateTemplate.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.DialHome.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.dispatchPart.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.GatherNewLogs.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.HowToOrderPart.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.HowToUpgrade.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.MDIParent1.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.OwnerChange.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.PerformanceEmail.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.Properties.Resources.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.SPPanic.resources
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\Case Assistant.csproj.GenerateResource.Cache
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing email templete.exe.manifest
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing email templete.application
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing email templete.exe
+C:\Users\anderr14\documents\visual studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing email templete.pdb
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Debug\Case Assistant.csprojResolveAssemblyReference.cache
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.DPEFault.resources
+C:\Users\anderr14\Documents\Visual Studio 2012\Projects\closing email templete\closing email templete\obj\Debug\closing_email_templete.ESRSOutage.resources
