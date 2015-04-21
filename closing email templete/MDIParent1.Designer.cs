@@ -97,11 +97,12 @@
             this.webexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vNXToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generalTemplatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eSRSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.generalTemplatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eSRSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -654,6 +655,21 @@
             this.vNXToolStripMenuItem.Size = new System.Drawing.Size(42, 20);
             this.vNXToolStripMenuItem.Text = "VNX";
             // 
+            // generalTemplatesToolStripMenuItem
+            // 
+            this.generalTemplatesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.eSRSToolStripMenuItem1});
+            this.generalTemplatesToolStripMenuItem.Name = "generalTemplatesToolStripMenuItem";
+            this.generalTemplatesToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
+            this.generalTemplatesToolStripMenuItem.Text = "General templates";
+            // 
+            // eSRSToolStripMenuItem1
+            // 
+            this.eSRSToolStripMenuItem1.Name = "eSRSToolStripMenuItem1";
+            this.eSRSToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
+            this.eSRSToolStripMenuItem1.Text = "ESRS";
+            this.eSRSToolStripMenuItem1.Click += new System.EventHandler(this.eSRSToolStripMenuItem1_Click);
+            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -670,26 +686,20 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // generalTemplatesToolStripMenuItem
+            // textBox1
             // 
-            this.generalTemplatesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eSRSToolStripMenuItem1});
-            this.generalTemplatesToolStripMenuItem.Name = "generalTemplatesToolStripMenuItem";
-            this.generalTemplatesToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
-            this.generalTemplatesToolStripMenuItem.Text = "General templates";
-            // 
-            // eSRSToolStripMenuItem1
-            // 
-            this.eSRSToolStripMenuItem1.Name = "eSRSToolStripMenuItem1";
-            this.eSRSToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.eSRSToolStripMenuItem1.Text = "ESRS";
-            this.eSRSToolStripMenuItem1.Click += new System.EventHandler(this.eSRSToolStripMenuItem1_Click);
+            this.textBox1.Location = new System.Drawing.Point(222, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(165, 20);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 425);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
@@ -781,6 +791,7 @@
         private System.Windows.Forms.ToolStripMenuItem vNXToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem generalTemplatesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eSRSToolStripMenuItem1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

@@ -549,6 +549,11 @@ namespace closing_email_templete
             obj.Show();
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {      
+            //Idea for this text box is to allow the user to search for kb article number, search for kbs by keywords, open ARs, and open SRs
+        }
+
         
     }
 }
