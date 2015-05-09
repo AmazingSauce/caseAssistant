@@ -102,7 +102,12 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearchBox = new System.Windows.Forms.TextBox();
+            this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kBsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aRsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sRsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.qtoolSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -112,7 +117,8 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileMenu,
             this.vNXToolStripMenuItem,
-            this.generalTemplatesToolStripMenuItem});
+            this.generalTemplatesToolStripMenuItem,
+            this.searchToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(632, 24);
@@ -301,8 +307,8 @@
             // chooseTemplete
             // 
             this.chooseTemplete.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.strikeEmailToolStripMenuItem,
             this.createTemplateToolStripMenuItem1,
+            this.strikeEmailToolStripMenuItem,
             this.acceptCaseToolStripMenuItem,
             this.breakFixIssuesDoneToolStripMenuItem,
             this.closingSRForUnresponsiveCustomerToolStripMenuItem,
@@ -666,7 +672,7 @@
             // eSRSToolStripMenuItem1
             // 
             this.eSRSToolStripMenuItem1.Name = "eSRSToolStripMenuItem1";
-            this.eSRSToolStripMenuItem1.Size = new System.Drawing.Size(99, 22);
+            this.eSRSToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.eSRSToolStripMenuItem1.Text = "ESRS";
             this.eSRSToolStripMenuItem1.Click += new System.EventHandler(this.eSRSToolStripMenuItem1_Click);
             // 
@@ -686,20 +692,58 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // textBox1
+            // txtSearchBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(222, 0);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 20);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtSearchBox.Location = new System.Drawing.Point(265, 4);
+            this.txtSearchBox.Name = "txtSearchBox";
+            this.txtSearchBox.Size = new System.Drawing.Size(165, 20);
+            this.txtSearchBox.TabIndex = 4;
+            this.txtSearchBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // searchToolStripMenuItem
+            // 
+            this.searchToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kBsToolStripMenuItem,
+            this.aRsToolStripMenuItem,
+            this.sRsToolStripMenuItem,
+            this.qtoolSearchToolStripMenuItem});
+            this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.searchToolStripMenuItem.Text = "Search";
+            // 
+            // kBsToolStripMenuItem
+            // 
+            this.kBsToolStripMenuItem.Name = "kBsToolStripMenuItem";
+            this.kBsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.kBsToolStripMenuItem.Text = "KBs";
+            this.kBsToolStripMenuItem.Click += new System.EventHandler(this.kBsToolStripMenuItem_Click);
+            // 
+            // aRsToolStripMenuItem
+            // 
+            this.aRsToolStripMenuItem.Name = "aRsToolStripMenuItem";
+            this.aRsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aRsToolStripMenuItem.Text = "ARs";
+            this.aRsToolStripMenuItem.Click += new System.EventHandler(this.aRsToolStripMenuItem_Click);
+            // 
+            // sRsToolStripMenuItem
+            // 
+            this.sRsToolStripMenuItem.Name = "sRsToolStripMenuItem";
+            this.sRsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sRsToolStripMenuItem.Text = "SRs";
+            this.sRsToolStripMenuItem.Click += new System.EventHandler(this.sRsToolStripMenuItem_Click);
+            // 
+            // qtoolSearchToolStripMenuItem
+            // 
+            this.qtoolSearchToolStripMenuItem.Name = "qtoolSearchToolStripMenuItem";
+            this.qtoolSearchToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.qtoolSearchToolStripMenuItem.Text = "Qtool search";
             // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 425);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearchBox);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
@@ -791,7 +835,12 @@
         private System.Windows.Forms.ToolStripMenuItem vNXToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem generalTemplatesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eSRSToolStripMenuItem1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearchBox;
+        private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kBsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aRsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sRsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem qtoolSearchToolStripMenuItem;
     }
 }
 

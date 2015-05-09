@@ -73,7 +73,7 @@ namespace closing_email_templete
         private void btnSubmit_Click(object sender, EventArgs e)
         {
 
-            string Manager = "Thomas, Benjamin <benjamin.thomas@emc.com>";
+            //string Manager = "Thomas, Benjamin <benjamin.thomas@emc.com>";
 
 
 

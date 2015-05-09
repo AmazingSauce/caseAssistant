@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="closing email templete.exe" size="160768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="closing email templete.exe" size="162816">
       <assemblyIdentity name="closing email templete" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cEbrHtlHo1rlwmnbsDL8Zq1nyijmNGou2kP1EKRwpxU=</dsig:DigestValue>
+        <dsig:DigestValue>5WHWr0aTcZdycD6dhqgMSD7BxAu9O9NHf8p2TBMvCGA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -12,6 +12,8 @@ using System.IO;
 using System.Net; // needed for the signature email to be grabbed and used to translete html code to be added to a string
 
 
+//next idea to is to add a clipboard optoin for the header of the service request for the turnover, GEO || date time || next actions or current status
+
 namespace closing_email_templete
 {
     public partial class OwnerChange : Form

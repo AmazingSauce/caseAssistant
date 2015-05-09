@@ -428,6 +428,10 @@ namespace closing_email_templete
 
         private void createTemplateToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+
+            //could be a usefull way to allow users to create a template
+            //https://www.add-in-express.com/creating-addins-blog/2013/09/06/working-with-word-templates/
+
             CreateTemplate obj = new CreateTemplate();
             obj.MdiParent = this;
             obj.Show();
@@ -550,8 +554,37 @@ namespace closing_email_templete
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
-        {      
+        {   
             //Idea for this text box is to allow the user to search for kb article number, search for kbs by keywords, open ARs, and open SRs
+          
+                //this almost works to take what is in the clipboard and put it in the text box, however it only puts it in there when I click in the box and do anything
+                //http://stackoverflow.com/questions/20416037/check-if-clipboard-has-data-has-into-textbox
+                    
+            
+                    if (Clipboard.ContainsText(TextDataFormat.Text))
+                    {
+                        txtSearchBox.Text = Clipboard.GetText();
+                        Clipboard.Clear();
+                    }
+
+                 
+                
+
+        }
+
+        private void sRsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://support.emc.com/servicecenter/srManagement/" + txtSearchBox.Text); 
+        }
+
+        private void aRsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://remedytools.rtp.lab.emc.com/nsgview.pl?entry=" + txtSearchBox.Text); 
+        }
+
+        private void kBsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://support.emc.com/kb/" + txtSearchBox.Text);
         }
 
         
