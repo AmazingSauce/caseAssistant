@@ -431,6 +431,7 @@ namespace closing_email_templete
 
             //could be a usefull way to allow users to create a template
             //https://www.add-in-express.com/creating-addins-blog/2013/09/06/working-with-word-templates/
+            //https://msdn.microsoft.com/en-us/library/bb386290.aspx
 
             CreateTemplate obj = new CreateTemplate();
             obj.MdiParent = this;

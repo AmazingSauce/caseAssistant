@@ -104,7 +104,7 @@ namespace closing_email_templete
             txtSerialNumber.Text = " ";
             txtSymptomcode.Text = " ";
             txtAgentName.Text = " ";
-
+            txtFaultedPart.Text = " ";
         }
     }
 }
