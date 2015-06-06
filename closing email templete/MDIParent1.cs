@@ -262,6 +262,7 @@ namespace closing_email_templete
         private void surgeSiteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://10.244.66.67/surge/login.php?originalURL=/surge/index.php");
+            System.Diagnostics.Process.Start("https://arswebprd01.isus.emc.com:8443/arsys/forms/arsappprd01.isus.emc.com/EMC%3AIssue+Tracking/Default/?cacheid=2db546b5&format=html");
 
         }
 
